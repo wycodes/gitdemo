@@ -1,5 +1,6 @@
 package com.gitdemo;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class GitTest {
@@ -10,7 +11,6 @@ public class GitTest {
      */
     public static void main(String[] args) {
         System.out.println("Hello GitHub!");
-        Date date = new Date();
-        System.out.println(date.getTime());
+        System.out.println(Calendar.getInstance().getTime().getDate());
     }
 }
